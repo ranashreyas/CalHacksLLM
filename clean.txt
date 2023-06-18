@@ -1,0 +1,36 @@
+@ Code File Edit Selection View Go Run Terminal Window Help SS © ww F $$ Q BS ®@ SatJun17 8:38 PM
+eee OCR.py — CalHacksLLM OW O oe |
+(oO EXPLORER @ OCR.py 4,U X = cleantxtU X = raw.txt U Py %& HO
+\ CALHACKSLLM ® OCR.py > @ clean_text
+2) > .ipynb_checkpoints e ie return url.decode( ‘utt-8').strip() I
+@ CalHacksLLM.ipynb 45 # Get the active Chrome tab's title
+tp = clean.txt U 46 def get_active_tab_title():
+‘al face.jpg 47 eCirlae a mm
+® OCR.py 4,U 48 tell application "Google Chrome"
+pe Se 49 get title of active tab of front window
+~ , 50 end tell
+Oo (2) README.md 51 rn
+E5 52 title = subprocess.check_output(['osascript', ‘'-e', script] )
+53 return title.decode( 'utf-8').strip()
+[A 54
+=© 55) def clean_text(text):
+56 text_file = open("raw.txt", "w")
+A 57 clean_text_file = open("clean.txt", "w')
+58 n = text_file.write(text)
+59 text_file.close()
+ww 60
+61 f = open("raw.txt", "r")
+62 for x in f:
+63 if len(x) > 5:
+64 clean_text_file.write(x)
+66 @ clean_text_file.close()
+PROBLEMS (4 OUTPUT TERMINAL DEBUG CONSOLE python3.8 +v (] ft) -- ~ x
+® (base) Shreyass-MacBook-Pro-2:CalHacksLLM shreyas$ python OCR.py I
+gon > OUTLINE
+> TIMELINE
+Active Tab: How to Write String to Text File in Python? - Python Examples (https://pythonexamples.org/python-write-string-to
+-text-file/)
+® (base) Shreyass-MacBook-Pro-2:CalHacksLLM shreyas$ python OCR.py
+Active Tab: Wikipedia - Wikipedia (https://en.wikipedia.org/wiki/Wikipedia)
+(base) Shreyass-MacBook-Pro-2:CalHacksLLM shreyas$ python OCR.py
+Active Tab: Wikipedia - Wikipedia (https://en.wikipedia.org/wiki/Wikipedia)
